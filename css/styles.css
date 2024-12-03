@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #E5E7EB;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 200px
+}
+.nav_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+.nav_links{
+    display: flex;
+    gap: 20px;
+}
+.nav_links a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.nav_links a:hover{
+    color: #A5E7EB;
+}
