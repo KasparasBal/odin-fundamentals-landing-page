@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 20px 200px
+    padding: 20px 200px;
 }
 .nav_logo{
     font-size: 24px;
@@ -29,4 +29,46 @@ body {
 }
 .nav_links a:hover{
     color: #A5E7EB;
+}
+.hero{
+    display: flex;
+    padding: 70px 200px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+.hero_image{
+    height: 250px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero_image img{
+    max-width: 400px;
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.hero_h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero_description{
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+.btn_action{
+    background-color: #3882F6;
+    border: none;
+    width: 120px;
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: #E5E7EB;
+    font-weight: 600;
+
 }
