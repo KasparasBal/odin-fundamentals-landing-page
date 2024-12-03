@@ -62,15 +62,16 @@ body {
     color: #E5E7EB;
     
 }
-.btn_action{
-    background-color: #3882F6;
-    border: none;
+.btn{
     width: 120px;
     border-radius: 5px;
     padding: 8px 30px;
     color: #E5E7EB;
     font-weight: 600;
-
+}
+.btn_action{
+    background-color: #3882F6;
+    border: none;
 }
 .services{
     margin-top: 40px;
@@ -134,3 +135,29 @@ body {
 .quote_author{
 align-self: flex-end;
 }
+.cta{
+    padding: 80px 200px;
+}
+.cta_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 60px;
+    border-radius: 15px;
+}
+.cta_text{
+color: #ffffff;
+}
+.cta_h5{
+font-size: 16px;
+}
+.cta_p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.btn_cta{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
